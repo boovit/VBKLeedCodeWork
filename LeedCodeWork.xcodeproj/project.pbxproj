@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1A2733809F00E3F022 /* AppDelegate.m */; };
+		D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */; };
+		D6AE8F21273380A000E3F022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F20273380A000E3F022 /* ViewController.m */; };
+		D6AE8F24273380A000E3F022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE8F22273380A000E3F022 /* Main.storyboard */; };
+		D6AE8F26273380A300E3F022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AE8F25273380A300E3F022 /* Assets.xcassets */; };
+		D6AE8F29273380A300E3F022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE8F27273380A300E3F022 /* LaunchScreen.storyboard */; };
+		D6AE8F2C273380A300E3F022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F2B273380A300E3F022 /* main.m */; };
+		D6AE8F36273380A400E3F022 /* LeedCodeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F35273380A400E3F022 /* LeedCodeWorkTests.m */; };
+		D6AE8F41273380A400E3F022 /* LeedCodeWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F40273380A400E3F022 /* LeedCodeWorkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6AE8F32273380A400E3F022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6AE8F0E2733809F00E3F022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6AE8F152733809F00E3F022;
+			remoteInfo = LeedCodeWork;
+		};
+		D6AE8F3D273380A400E3F022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6AE8F0E2733809F00E3F022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6AE8F152733809F00E3F022;
+			remoteInfo = LeedCodeWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6AE8F162733809F00E3F022 /* LeedCodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeedCodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AE8F192733809F00E3F022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6AE8F1A2733809F00E3F022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6AE8F1C2733809F00E3F022 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D6AE8F1F273380A000E3F022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6AE8F20273380A000E3F022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6AE8F23273380A000E3F022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6AE8F25273380A300E3F022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6AE8F28273380A300E3F022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6AE8F2A273380A300E3F022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6AE8F2B273380A300E3F022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6AE8F31273380A400E3F022 /* LeedCodeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeedCodeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AE8F35273380A400E3F022 /* LeedCodeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeedCodeWorkTests.m; sourceTree = "<group>"; };
+		D6AE8F37273380A400E3F022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6AE8F3C273380A400E3F022 /* LeedCodeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeedCodeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AE8F40273380A400E3F022 /* LeedCodeWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeedCodeWorkUITests.m; sourceTree = "<group>"; };
+		D6AE8F42273380A400E3F022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6AE8F132733809F00E3F022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE8F2E273380A400E3F022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE8F39273380A400E3F022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6AE8F0D2733809F00E3F022 = {
+			isa = PBXGroup;
+			children = (
+				D6AE8F182733809F00E3F022 /* LeedCodeWork */,
+				D6AE8F34273380A400E3F022 /* LeedCodeWorkTests */,
+				D6AE8F3F273380A400E3F022 /* LeedCodeWorkUITests */,
+				D6AE8F172733809F00E3F022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6AE8F172733809F00E3F022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE8F162733809F00E3F022 /* LeedCodeWork.app */,
+				D6AE8F31273380A400E3F022 /* LeedCodeWorkTests.xctest */,
+				D6AE8F3C273380A400E3F022 /* LeedCodeWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6AE8F182733809F00E3F022 /* LeedCodeWork */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE8F192733809F00E3F022 /* AppDelegate.h */,
+				D6AE8F1A2733809F00E3F022 /* AppDelegate.m */,
+				D6AE8F1C2733809F00E3F022 /* SceneDelegate.h */,
+				D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */,
+				D6AE8F1F273380A000E3F022 /* ViewController.h */,
+				D6AE8F20273380A000E3F022 /* ViewController.m */,
+				D6AE8F22273380A000E3F022 /* Main.storyboard */,
+				D6AE8F25273380A300E3F022 /* Assets.xcassets */,
+				D6AE8F27273380A300E3F022 /* LaunchScreen.storyboard */,
+				D6AE8F2A273380A300E3F022 /* Info.plist */,
+				D6AE8F2B273380A300E3F022 /* main.m */,
+			);
+			path = LeedCodeWork;
+			sourceTree = "<group>";
+		};
+		D6AE8F34273380A400E3F022 /* LeedCodeWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE8F35273380A400E3F022 /* LeedCodeWorkTests.m */,
+				D6AE8F37273380A400E3F022 /* Info.plist */,
+			);
+			path = LeedCodeWorkTests;
+			sourceTree = "<group>";
+		};
+		D6AE8F3F273380A400E3F022 /* LeedCodeWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE8F40273380A400E3F022 /* LeedCodeWorkUITests.m */,
+				D6AE8F42273380A400E3F022 /* Info.plist */,
+			);
+			path = LeedCodeWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6AE8F152733809F00E3F022 /* LeedCodeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6AE8F45273380A400E3F022 /* Build configuration list for PBXNativeTarget "LeedCodeWork" */;
+			buildPhases = (
+				D6AE8F122733809F00E3F022 /* Sources */,
+				D6AE8F132733809F00E3F022 /* Frameworks */,
+				D6AE8F142733809F00E3F022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeedCodeWork;
+			productName = LeedCodeWork;
+			productReference = D6AE8F162733809F00E3F022 /* LeedCodeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6AE8F30273380A400E3F022 /* LeedCodeWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6AE8F48273380A400E3F022 /* Build configuration list for PBXNativeTarget "LeedCodeWorkTests" */;
+			buildPhases = (
+				D6AE8F2D273380A400E3F022 /* Sources */,
+				D6AE8F2E273380A400E3F022 /* Frameworks */,
+				D6AE8F2F273380A400E3F022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6AE8F33273380A400E3F022 /* PBXTargetDependency */,
+			);
+			name = LeedCodeWorkTests;
+			productName = LeedCodeWorkTests;
+			productReference = D6AE8F31273380A400E3F022 /* LeedCodeWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6AE8F3B273380A400E3F022 /* LeedCodeWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6AE8F4B273380A400E3F022 /* Build configuration list for PBXNativeTarget "LeedCodeWorkUITests" */;
+			buildPhases = (
+				D6AE8F38273380A400E3F022 /* Sources */,
+				D6AE8F39273380A400E3F022 /* Frameworks */,
+				D6AE8F3A273380A400E3F022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6AE8F3E273380A400E3F022 /* PBXTargetDependency */,
+			);
+			name = LeedCodeWorkUITests;
+			productName = LeedCodeWorkUITests;
+			productReference = D6AE8F3C273380A400E3F022 /* LeedCodeWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6AE8F0E2733809F00E3F022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D6AE8F152733809F00E3F022 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D6AE8F30273380A400E3F022 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D6AE8F152733809F00E3F022;
+					};
+					D6AE8F3B273380A400E3F022 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D6AE8F152733809F00E3F022;
+					};
+				};
+			};
+			buildConfigurationList = D6AE8F112733809F00E3F022 /* Build configuration list for PBXProject "LeedCodeWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6AE8F0D2733809F00E3F022;
+			productRefGroup = D6AE8F172733809F00E3F022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6AE8F152733809F00E3F022 /* LeedCodeWork */,
+				D6AE8F30273380A400E3F022 /* LeedCodeWorkTests */,
+				D6AE8F3B273380A400E3F022 /* LeedCodeWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6AE8F142733809F00E3F022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE8F29273380A300E3F022 /* LaunchScreen.storyboard in Resources */,
+				D6AE8F26273380A300E3F022 /* Assets.xcassets in Resources */,
+				D6AE8F24273380A000E3F022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE8F2F273380A400E3F022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE8F3A273380A400E3F022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6AE8F122733809F00E3F022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE8F21273380A000E3F022 /* ViewController.m in Sources */,
+				D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */,
+				D6AE8F2C273380A300E3F022 /* main.m in Sources */,
+				D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE8F2D273380A400E3F022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE8F36273380A400E3F022 /* LeedCodeWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE8F38273380A400E3F022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE8F41273380A400E3F022 /* LeedCodeWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6AE8F33273380A400E3F022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6AE8F152733809F00E3F022 /* LeedCodeWork */;
+			targetProxy = D6AE8F32273380A400E3F022 /* PBXContainerItemProxy */;
+		};
+		D6AE8F3E273380A400E3F022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6AE8F152733809F00E3F022 /* LeedCodeWork */;
+			targetProxy = D6AE8F3D273380A400E3F022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6AE8F22273380A000E3F022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6AE8F23273380A000E3F022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6AE8F27273380A300E3F022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6AE8F28273380A300E3F022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6AE8F43273380A400E3F022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6AE8F44273380A400E3F022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6AE8F46273380A400E3F022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeedCodeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weib.LeedCodeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6AE8F47273380A400E3F022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeedCodeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weib.LeedCodeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6AE8F49273380A400E3F022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeedCodeWorkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weib.LeedCodeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeedCodeWork.app/LeedCodeWork";
+			};
+			name = Debug;
+		};
+		D6AE8F4A273380A400E3F022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeedCodeWorkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weib.LeedCodeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeedCodeWork.app/LeedCodeWork";
+			};
+			name = Release;
+		};
+		D6AE8F4C273380A400E3F022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeedCodeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weib.LeedCodeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeedCodeWork;
+			};
+			name = Debug;
+		};
+		D6AE8F4D273380A400E3F022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeedCodeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weib.LeedCodeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeedCodeWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6AE8F112733809F00E3F022 /* Build configuration list for PBXProject "LeedCodeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE8F43273380A400E3F022 /* Debug */,
+				D6AE8F44273380A400E3F022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6AE8F45273380A400E3F022 /* Build configuration list for PBXNativeTarget "LeedCodeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE8F46273380A400E3F022 /* Debug */,
+				D6AE8F47273380A400E3F022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6AE8F48273380A400E3F022 /* Build configuration list for PBXNativeTarget "LeedCodeWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE8F49273380A400E3F022 /* Debug */,
+				D6AE8F4A273380A400E3F022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6AE8F4B273380A400E3F022 /* Build configuration list for PBXNativeTarget "LeedCodeWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE8F4C273380A400E3F022 /* Debug */,
+				D6AE8F4D273380A400E3F022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6AE8F0E2733809F00E3F022 /* Project object */;
+}
