@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D627C8212739467D00ED8429 /* Subject2.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8202739467D00ED8429 /* Subject2.m */; };
 		D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1A2733809F00E3F022 /* AppDelegate.m */; };
 		D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */; };
 		D6AE8F21273380A000E3F022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F20273380A000E3F022 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D627C81F2739467D00ED8429 /* Subject2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject2.h; sourceTree = "<group>"; };
+		D627C8202739467D00ED8429 /* Subject2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject2.m; sourceTree = "<group>"; };
 		D6AE8F162733809F00E3F022 /* LeedCodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeedCodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE8F192733809F00E3F022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6AE8F1A2733809F00E3F022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				D6AE8F50273381B400E3F022 /* SubjectObject.m */,
 				D6AE8F52273381E100E3F022 /* Subject1.h */,
 				D6AE8F53273381E100E3F022 /* Subject1.m */,
+				D627C81F2739467D00ED8429 /* Subject2.h */,
+				D627C8202739467D00ED8429 /* Subject2.m */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6AE8F21273380A000E3F022 /* ViewController.m in Sources */,
+				D627C8212739467D00ED8429 /* Subject2.m in Sources */,
 				D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */,
 				D6AE8F51273381B400E3F022 /* SubjectObject.m in Sources */,
 				D6AE8F2C273380A300E3F022 /* main.m in Sources */,
