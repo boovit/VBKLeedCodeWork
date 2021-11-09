@@ -7,9 +7,7 @@
 
 #import "Subject2.h"
 
-@interface Node : NSObject
-@property(nonatomic,strong)Node *next;
-@property(nonatomic,assign)NSInteger value;
+@implementation Node
 @end
 
 @implementation Subject2

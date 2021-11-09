@@ -28,6 +28,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface Node : NSObject
+@property(nonatomic,strong)Node *next;
+@property(nonatomic,assign)NSInteger value;
+@end
+
 @interface Subject2 : SubjectObject
 
 @end
