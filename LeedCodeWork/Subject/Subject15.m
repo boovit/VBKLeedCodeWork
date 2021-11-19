@@ -20,7 +20,15 @@
 -(NSArray<NSNumber*>*)threeSum:(NSArray<NSNumber*>*)nums
 {
     NSArray<NSNumber*> *resArr = nil;
-    
+    //升序排列
+    NSArray<NSNumber*> *sortArr = [nums sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        NSNumber *num1 = (NSNumber*)obj1;
+        NSNumber *num2 = (NSNumber*)obj2;
+        if (num1.integerValue<num2.integerValue) {
+            return NSOrderedAscending;
+        }
+        return NSOrderedDescending;
+    }];
     return resArr;
 }
 @end
