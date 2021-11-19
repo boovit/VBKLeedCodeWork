@@ -17,5 +17,10 @@
  */
 
 @implementation Subject15
-
+-(NSArray<NSNumber*>*)threeSum:(NSArray<NSNumber*>*)nums
+{
+    NSArray<NSNumber*> *resArr = nil;
+    
+    return resArr;
+}
 @end
