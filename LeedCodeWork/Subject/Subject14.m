@@ -8,9 +8,6 @@
 #import "Subject14.h"
 
 /**
- 最长公共长度
- ["flower","flab","flibii"]
- "fl"
  */
 
 //循环比较每一位，直到出现不同时，结束比较。
