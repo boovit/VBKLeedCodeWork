@@ -14,6 +14,7 @@
 		D627C8642743DA3700ED8429 /* Subject11.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8632743DA3700ED8429 /* Subject11.m */; };
 		D627C8672744EF2500ED8429 /* Subject12.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8662744EF2500ED8429 /* Subject12.m */; };
 		D627C891274643A800ED8429 /* Subject13.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C890274643A800ED8429 /* Subject13.m */; };
+		D627C89427465B3B00ED8429 /* Subject14.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C89327465B3B00ED8429 /* Subject14.m */; };
 		D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1A2733809F00E3F022 /* AppDelegate.m */; };
 		D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */; };
 		D6AE8F21273380A000E3F022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F20273380A000E3F022 /* ViewController.m */; };
@@ -59,6 +60,8 @@
 		D627C8662744EF2500ED8429 /* Subject12.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject12.m; sourceTree = "<group>"; };
 		D627C88F274643A800ED8429 /* Subject13.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject13.h; sourceTree = "<group>"; };
 		D627C890274643A800ED8429 /* Subject13.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject13.m; sourceTree = "<group>"; };
+		D627C89227465B3B00ED8429 /* Subject14.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject14.h; sourceTree = "<group>"; };
+		D627C89327465B3B00ED8429 /* Subject14.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject14.m; sourceTree = "<group>"; };
 		D6AE8F162733809F00E3F022 /* LeedCodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeedCodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE8F192733809F00E3F022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6AE8F1A2733809F00E3F022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				D627C8662744EF2500ED8429 /* Subject12.m */,
 				D627C88F274643A800ED8429 /* Subject13.h */,
 				D627C890274643A800ED8429 /* Subject13.m */,
+				D627C89227465B3B00ED8429 /* Subject14.h */,
+				D627C89327465B3B00ED8429 /* Subject14.m */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 				D6AE8F51273381B400E3F022 /* SubjectObject.m in Sources */,
 				D627C8642743DA3700ED8429 /* Subject11.m in Sources */,
 				D627C834273E48A100ED8429 /* Subject4.m in Sources */,
+				D627C89427465B3B00ED8429 /* Subject14.m in Sources */,
 				D627C824273A2E4000ED8429 /* Subject3.swift in Sources */,
 				D627C837273E653E00ED8429 /* Subject5.m in Sources */,
 				D6AE8F2C273380A300E3F022 /* main.m in Sources */,
