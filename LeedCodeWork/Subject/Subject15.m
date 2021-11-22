@@ -17,10 +17,54 @@
  */
 
 @implementation Subject15
--(NSArray<NSNumber*>*)threeSum:(NSArray<NSNumber*>*)nums
+-(NSArray<NSArray<NSNumber*>*>*)threeSum:(NSArray<NSNumber*>*)nums
 {
-    NSArray<NSNumber*> *resArr = nil;
+    NSMutableArray<NSArray<NSNumber*>*> *resArr = [NSMutableArray array];
+    if (nums==nil || nums.count<3) {//边界情况
+        return [resArr copy];
+    }
+    //1.升序排列
+    NSArray<NSNumber*> *sortArr = [nums sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        NSNumber *num1 = (NSNumber*)obj1;
+        NSNumber *num2 = (NSNumber*)obj2;
+        if (num1.integerValue<num2.integerValue) {
+            return NSOrderedAscending;
+        }
+        return NSOrderedDescending;
+    }];
     
-    return resArr;
+    NSUInteger len = sortArr.count;
+    
+    for (NSUInteger i=0; i<len; i++) {
+        if (sortArr[i].integerValue>0) {//全是正数
+            break;
+        }
+        if(0<i && sortArr[i]==sortArr[i-1])continue;//去重
+        NSUInteger L = i+1;
+        NSUInteger R = len-1;
+        while (L<R) {
+            NSInteger sum = sortArr[i].integerValue+sortArr[L].integerValue+sortArr[R].integerValue;
+            if (sum == 0) {//符合要求
+                NSArray *temp = @[sortArr[i],sortArr[L],sortArr[R]];
+                [resArr addObject:temp];
+                while (L<R && sortArr[L].integerValue == sortArr[L+1].integerValue) {
+                    L++;
+                }
+                while (L<R && sortArr[R].integerValue == sortArr[R-1].integerValue) {
+                    R--;
+                }
+                L++;
+                R--;
+            }
+            else if (sum<0){
+                L++;
+            }
+            else if (sum>0){
+                R--;
+            }
+        }
+    }
+    
+    return [resArr copy];
 }
 @end
