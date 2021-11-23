@@ -22,6 +22,7 @@
 		D627C8AA274E0E7100ED8429 /* Subject20.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A9274E0E7100ED8429 /* Subject20.m */; };
 		D627C8AD274E190D00ED8429 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */; };
 		D627C8A7274D11B200ED8429 /* Subject19.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A6274D11B200ED8429 /* Subject19.m */; };
+		D627C8A4274CDD1800ED8429 /* Subject18.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A3274CDD1800ED8429 /* Subject18.m */; };
 		D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1A2733809F00E3F022 /* AppDelegate.m */; };
 		D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */; };
 		D6AE8F21273380A000E3F022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F20273380A000E3F022 /* ViewController.m */; };
@@ -83,6 +84,8 @@
 		D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
 		D627C8A5274D11B200ED8429 /* Subject19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject19.h; sourceTree = "<group>"; };
 		D627C8A6274D11B200ED8429 /* Subject19.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject19.m; sourceTree = "<group>"; };
+		D627C8A2274CDD1800ED8429 /* Subject18.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject18.h; sourceTree = "<group>"; };
+		D627C8A3274CDD1800ED8429 /* Subject18.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject18.m; sourceTree = "<group>"; };
 		D6AE8F162733809F00E3F022 /* LeedCodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeedCodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE8F192733809F00E3F022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6AE8F1A2733809F00E3F022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -234,6 +237,8 @@
 				D627C8A9274E0E7100ED8429 /* Subject20.m */,
 				D627C8A5274D11B200ED8429 /* Subject19.h */,
 				D627C8A6274D11B200ED8429 /* Subject19.m */,
+				D627C8A2274CDD1800ED8429 /* Subject18.h */,
+				D627C8A3274CDD1800ED8429 /* Subject18.m */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				D627C8642743DA3700ED8429 /* Subject11.m in Sources */,
 				D627C834273E48A100ED8429 /* Subject4.m in Sources */,
 				D627C89427465B3B00ED8429 /* Subject14.m in Sources */,
+				D627C8A4274CDD1800ED8429 /* Subject18.m in Sources */,
 				D627C8A1274C969300ED8429 /* NSString+Utility.m in Sources */,
 				D627C824273A2E4000ED8429 /* Subject3.swift in Sources */,
 				D627C837273E653E00ED8429 /* Subject5.m in Sources */,
