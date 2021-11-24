@@ -6,6 +6,8 @@
 //
 
 #import "Subject20.h"
+#import "NSMutableArray+Stack.h"
+#import "NSString+Utility.h"
 
 /**
  给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
@@ -26,13 +28,36 @@
  链接：https://leetcode-cn.com/problems/valid-parentheses
  */
 
+NSMutableArray<NSString*> *stackArr = nil;
+
 @implementation Subject20
 //使用栈结构
 -(BOOL)isValid:(NSString*)string
 {
+    if (string.length<=0) {
+        return NO;
+    }
     BOOL res = NO;
+    stackArr = [NSMutableArray new];
+    NSDictionary<NSString*,NSString*> *dic = @{@"(":@")",@"[":@"]",@"{":@"}"};
+    for (int i=0; i<string.length; i++) {
+        NSString *oneChar = [string oneCharIndex:i];
+        if ([oneChar isEqualToString:@")"] ||
+            [oneChar isEqualToString:@"]"] ||
+            [oneChar isEqualToString:@"}"] ) {
+            NSString *popStr = [stackArr pop];//出栈
+            if (![dic[popStr] isEqualToString:oneChar]) {
+                return NO;
+            }
+        }else{
+            [stackArr push:oneChar];//入栈
+        }
+    }
+    if (stackArr.count<=0) {
+        res = YES;
+    }
     return res;
 }
 
--()
+
 @end
