@@ -19,6 +19,8 @@
 		D627C89A27479EA500ED8429 /* Subject16.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C89927479EA500ED8429 /* Subject16.m */; };
 		D627C89D274BC24F00ED8429 /* Subject17.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C89C274BC24F00ED8429 /* Subject17.m */; };
 		D627C8A1274C969300ED8429 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A0274C969300ED8429 /* NSString+Utility.m */; };
+		D627C8AA274E0E7100ED8429 /* Subject20.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A9274E0E7100ED8429 /* Subject20.m */; };
+		D627C8AD274E190D00ED8429 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */; };
 		D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1A2733809F00E3F022 /* AppDelegate.m */; };
 		D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */; };
 		D6AE8F21273380A000E3F022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F20273380A000E3F022 /* ViewController.m */; };
@@ -74,6 +76,10 @@
 		D627C89C274BC24F00ED8429 /* Subject17.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject17.m; sourceTree = "<group>"; };
 		D627C89F274C969300ED8429 /* NSString+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
 		D627C8A0274C969300ED8429 /* NSString+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		D627C8A8274E0E7100ED8429 /* Subject20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject20.h; sourceTree = "<group>"; };
+		D627C8A9274E0E7100ED8429 /* Subject20.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject20.m; sourceTree = "<group>"; };
+		D627C8AB274E190D00ED8429 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
 		D6AE8F162733809F00E3F022 /* LeedCodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeedCodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE8F192733809F00E3F022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6AE8F1A2733809F00E3F022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +134,8 @@
 			children = (
 				D627C89F274C969300ED8429 /* NSString+Utility.h */,
 				D627C8A0274C969300ED8429 /* NSString+Utility.m */,
+				D627C8AB274E190D00ED8429 /* NSMutableArray+Stack.h */,
+				D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -219,6 +227,8 @@
 				D627C89927479EA500ED8429 /* Subject16.m */,
 				D627C89B274BC24F00ED8429 /* Subject17.h */,
 				D627C89C274BC24F00ED8429 /* Subject17.m */,
+				D627C8A8274E0E7100ED8429 /* Subject20.h */,
+				D627C8A9274E0E7100ED8429 /* Subject20.m */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
@@ -369,8 +379,10 @@
 				D6AE8F2C273380A300E3F022 /* main.m in Sources */,
 				D627C8672744EF2500ED8429 /* Subject12.m in Sources */,
 				D627C89A27479EA500ED8429 /* Subject16.m in Sources */,
+				D627C8AD274E190D00ED8429 /* NSMutableArray+Stack.m in Sources */,
 				D6AE8F54273381E100E3F022 /* Subject1.m in Sources */,
 				D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */,
+				D627C8AA274E0E7100ED8429 /* Subject20.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
