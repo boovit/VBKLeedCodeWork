@@ -13,14 +13,6 @@
  1->2->3->5
  */
 
-@interface ListNode : NSObject
-@property(nonatomic,assign)int value;
-@property(nonatomic,strong)ListNode *next;
-@end
-
-@implementation ListNode
-@end
-
 @implementation Subject19
 //双指针测距法
 -(ListNode*)removeNthFromEnd:(ListNode*)head n:(int)n

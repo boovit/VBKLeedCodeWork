@@ -9,6 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface ListNode : NSObject
+@property(nonatomic,assign)int value;
+@property(nonatomic,strong)ListNode *next;
+@end
+
 @interface SubjectObject : NSObject
 
 @end

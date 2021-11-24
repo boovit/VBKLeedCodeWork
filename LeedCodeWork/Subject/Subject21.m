@@ -16,6 +16,6 @@
 -(ListNode*)mergeTwoLists:(ListNode*)firstNode second:(ListNode*)secNode
 {
     ListNode *resNode = nil;
-    return ListNode;
+    return resNode;
 }
 @end
