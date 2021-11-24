@@ -19,6 +19,7 @@
 		D627C89A27479EA500ED8429 /* Subject16.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C89927479EA500ED8429 /* Subject16.m */; };
 		D627C89D274BC24F00ED8429 /* Subject17.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C89C274BC24F00ED8429 /* Subject17.m */; };
 		D627C8A1274C969300ED8429 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A0274C969300ED8429 /* NSString+Utility.m */; };
+		D627C8A7274D11B200ED8429 /* Subject19.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A6274D11B200ED8429 /* Subject19.m */; };
 		D627C8AA274E0E7100ED8429 /* Subject20.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A9274E0E7100ED8429 /* Subject20.m */; };
 		D627C8AD274E190D00ED8429 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */; };
 		D627C8A7274D11B200ED8429 /* Subject19.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A6274D11B200ED8429 /* Subject19.m */; };
@@ -79,6 +80,8 @@
 		D627C89C274BC24F00ED8429 /* Subject17.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject17.m; sourceTree = "<group>"; };
 		D627C89F274C969300ED8429 /* NSString+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
 		D627C8A0274C969300ED8429 /* NSString+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		D627C8A5274D11B200ED8429 /* Subject19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject19.h; sourceTree = "<group>"; };
+		D627C8A6274D11B200ED8429 /* Subject19.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject19.m; sourceTree = "<group>"; };
 		D627C8A8274E0E7100ED8429 /* Subject20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject20.h; sourceTree = "<group>"; };
 		D627C8A9274E0E7100ED8429 /* Subject20.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject20.m; sourceTree = "<group>"; };
 		D627C8AB274E190D00ED8429 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
@@ -236,12 +239,12 @@
 				D627C89927479EA500ED8429 /* Subject16.m */,
 				D627C89B274BC24F00ED8429 /* Subject17.h */,
 				D627C89C274BC24F00ED8429 /* Subject17.m */,
-				D627C8A8274E0E7100ED8429 /* Subject20.h */,
-				D627C8A9274E0E7100ED8429 /* Subject20.m */,
 				D627C8A5274D11B200ED8429 /* Subject19.h */,
 				D627C8A6274D11B200ED8429 /* Subject19.m */,
 				D627C8A2274CDD1800ED8429 /* Subject18.h */,
 				D627C8A3274CDD1800ED8429 /* Subject18.m */,
+				D627C8A8274E0E7100ED8429 /* Subject20.h */,
+				D627C8A9274E0E7100ED8429 /* Subject20.m */,
 				D627C8AE274E254D00ED8429 /* Subject21.h */,
 				D627C8AF274E254D00ED8429 /* Subject21.m */,
 			);
