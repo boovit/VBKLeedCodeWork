@@ -37,6 +37,7 @@
 		D6AE8F41273380A400E3F022 /* LeedCodeWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F40273380A400E3F022 /* LeedCodeWorkUITests.m */; };
 		D6AE8F51273381B400E3F022 /* SubjectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F50273381B400E3F022 /* SubjectObject.m */; };
 		D6AE8F54273381E100E3F022 /* Subject1.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F53273381E100E3F022 /* Subject1.m */; };
+		D6FACFF32771D32000136786 /* Subject26.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FACFF22771D32000136786 /* Subject26.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,8 @@
 		D6AE8F50273381B400E3F022 /* SubjectObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectObject.m; sourceTree = "<group>"; };
 		D6AE8F52273381E100E3F022 /* Subject1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject1.h; sourceTree = "<group>"; };
 		D6AE8F53273381E100E3F022 /* Subject1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject1.m; sourceTree = "<group>"; };
+		D6FACFF12771D32000136786 /* Subject26.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject26.h; sourceTree = "<group>"; };
+		D6FACFF22771D32000136786 /* Subject26.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject26.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +257,8 @@
 				D627C8B2274E530600ED8429 /* Subject22.m */,
 				D6773B0F2768969F00B4970A /* Subject24.h */,
 				D6773B102768969F00B4970A /* Subject24.m */,
+				D6FACFF12771D32000136786 /* Subject26.h */,
+				D6FACFF22771D32000136786 /* Subject26.m */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				D627C8A4274CDD1800ED8429 /* Subject18.m in Sources */,
 				D627C8A1274C969300ED8429 /* NSString+Utility.m in Sources */,
 				D627C824273A2E4000ED8429 /* Subject3.swift in Sources */,
+				D6FACFF32771D32000136786 /* Subject26.m in Sources */,
 				D627C837273E653E00ED8429 /* Subject5.m in Sources */,
 				D6AE8F2C273380A300E3F022 /* main.m in Sources */,
 				D6773B112768969F00B4970A /* Subject24.m in Sources */,
