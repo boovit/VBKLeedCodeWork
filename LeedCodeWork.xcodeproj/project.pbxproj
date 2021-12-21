@@ -25,6 +25,7 @@
 		D627C8AD274E190D00ED8429 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */; };
 		D627C8B0274E254D00ED8429 /* Subject21.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8AF274E254D00ED8429 /* Subject21.m */; };
 		D627C8B3274E530700ED8429 /* Subject22.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8B2274E530600ED8429 /* Subject22.m */; };
+		D6773B112768969F00B4970A /* Subject24.m in Sources */ = {isa = PBXBuildFile; fileRef = D6773B102768969F00B4970A /* Subject24.m */; };
 		D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1A2733809F00E3F022 /* AppDelegate.m */; };
 		D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */; };
 		D6AE8F21273380A000E3F022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F20273380A000E3F022 /* ViewController.m */; };
@@ -92,6 +93,8 @@
 		D627C8AF274E254D00ED8429 /* Subject21.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject21.m; sourceTree = "<group>"; };
 		D627C8B1274E530600ED8429 /* Subject22.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject22.h; sourceTree = "<group>"; };
 		D627C8B2274E530600ED8429 /* Subject22.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject22.m; sourceTree = "<group>"; };
+		D6773B0F2768969F00B4970A /* Subject24.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject24.h; sourceTree = "<group>"; };
+		D6773B102768969F00B4970A /* Subject24.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject24.m; sourceTree = "<group>"; };
 		D6AE8F162733809F00E3F022 /* LeedCodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeedCodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE8F192733809F00E3F022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6AE8F1A2733809F00E3F022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -249,6 +252,8 @@
 				D627C8AF274E254D00ED8429 /* Subject21.m */,
 				D627C8B1274E530600ED8429 /* Subject22.h */,
 				D627C8B2274E530600ED8429 /* Subject22.m */,
+				D6773B0F2768969F00B4970A /* Subject24.h */,
+				D6773B102768969F00B4970A /* Subject24.m */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				D627C824273A2E4000ED8429 /* Subject3.swift in Sources */,
 				D627C837273E653E00ED8429 /* Subject5.m in Sources */,
 				D6AE8F2C273380A300E3F022 /* main.m in Sources */,
+				D6773B112768969F00B4970A /* Subject24.m in Sources */,
 				D627C8A7274D11B200ED8429 /* Subject19.m in Sources */,
 				D627C8672744EF2500ED8429 /* Subject12.m in Sources */,
 				D627C8B3274E530700ED8429 /* Subject22.m in Sources */,
