@@ -7,6 +7,11 @@
 
 #import "SubjectObject.h"
 
+@implementation ListNode
+@end
+
 @implementation SubjectObject
 
 @end
+
+

@@ -17,6 +17,15 @@
 		D627C89427465B3B00ED8429 /* Subject14.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C89327465B3B00ED8429 /* Subject14.m */; };
 		D627C897274775C000ED8429 /* Subject15.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C896274775C000ED8429 /* Subject15.m */; };
 		D627C89A27479EA500ED8429 /* Subject16.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C89927479EA500ED8429 /* Subject16.m */; };
+		D627C89D274BC24F00ED8429 /* Subject17.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C89C274BC24F00ED8429 /* Subject17.m */; };
+		D627C8A1274C969300ED8429 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A0274C969300ED8429 /* NSString+Utility.m */; };
+		D627C8A4274CDD1800ED8429 /* Subject18.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A3274CDD1800ED8429 /* Subject18.m */; };
+		D627C8A7274D11B200ED8429 /* Subject19.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A6274D11B200ED8429 /* Subject19.m */; };
+		D627C8AA274E0E7100ED8429 /* Subject20.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8A9274E0E7100ED8429 /* Subject20.m */; };
+		D627C8AD274E190D00ED8429 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */; };
+		D627C8B0274E254D00ED8429 /* Subject21.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8AF274E254D00ED8429 /* Subject21.m */; };
+		D627C8B3274E530700ED8429 /* Subject22.m in Sources */ = {isa = PBXBuildFile; fileRef = D627C8B2274E530600ED8429 /* Subject22.m */; };
+		D6773B112768969F00B4970A /* Subject24.m in Sources */ = {isa = PBXBuildFile; fileRef = D6773B102768969F00B4970A /* Subject24.m */; };
 		D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1A2733809F00E3F022 /* AppDelegate.m */; };
 		D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F1D2733809F00E3F022 /* SceneDelegate.m */; };
 		D6AE8F21273380A000E3F022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F20273380A000E3F022 /* ViewController.m */; };
@@ -28,6 +37,7 @@
 		D6AE8F41273380A400E3F022 /* LeedCodeWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F40273380A400E3F022 /* LeedCodeWorkUITests.m */; };
 		D6AE8F51273381B400E3F022 /* SubjectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F50273381B400E3F022 /* SubjectObject.m */; };
 		D6AE8F54273381E100E3F022 /* Subject1.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE8F53273381E100E3F022 /* Subject1.m */; };
+		D6FACFF32771D32000136786 /* Subject26.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FACFF22771D32000136786 /* Subject26.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +78,24 @@
 		D627C896274775C000ED8429 /* Subject15.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject15.m; sourceTree = "<group>"; };
 		D627C89827479EA500ED8429 /* Subject16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject16.h; sourceTree = "<group>"; };
 		D627C89927479EA500ED8429 /* Subject16.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject16.m; sourceTree = "<group>"; };
+		D627C89B274BC24F00ED8429 /* Subject17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject17.h; sourceTree = "<group>"; };
+		D627C89C274BC24F00ED8429 /* Subject17.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject17.m; sourceTree = "<group>"; };
+		D627C89F274C969300ED8429 /* NSString+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		D627C8A0274C969300ED8429 /* NSString+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		D627C8A2274CDD1800ED8429 /* Subject18.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject18.h; sourceTree = "<group>"; };
+		D627C8A3274CDD1800ED8429 /* Subject18.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject18.m; sourceTree = "<group>"; };
+		D627C8A5274D11B200ED8429 /* Subject19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject19.h; sourceTree = "<group>"; };
+		D627C8A6274D11B200ED8429 /* Subject19.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject19.m; sourceTree = "<group>"; };
+		D627C8A8274E0E7100ED8429 /* Subject20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject20.h; sourceTree = "<group>"; };
+		D627C8A9274E0E7100ED8429 /* Subject20.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject20.m; sourceTree = "<group>"; };
+		D627C8AB274E190D00ED8429 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		D627C8AE274E254D00ED8429 /* Subject21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject21.h; sourceTree = "<group>"; };
+		D627C8AF274E254D00ED8429 /* Subject21.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject21.m; sourceTree = "<group>"; };
+		D627C8B1274E530600ED8429 /* Subject22.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject22.h; sourceTree = "<group>"; };
+		D627C8B2274E530600ED8429 /* Subject22.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject22.m; sourceTree = "<group>"; };
+		D6773B0F2768969F00B4970A /* Subject24.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject24.h; sourceTree = "<group>"; };
+		D6773B102768969F00B4970A /* Subject24.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject24.m; sourceTree = "<group>"; };
 		D6AE8F162733809F00E3F022 /* LeedCodeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeedCodeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AE8F192733809F00E3F022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6AE8F1A2733809F00E3F022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +118,8 @@
 		D6AE8F50273381B400E3F022 /* SubjectObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectObject.m; sourceTree = "<group>"; };
 		D6AE8F52273381E100E3F022 /* Subject1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject1.h; sourceTree = "<group>"; };
 		D6AE8F53273381E100E3F022 /* Subject1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject1.m; sourceTree = "<group>"; };
+		D6FACFF12771D32000136786 /* Subject26.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject26.h; sourceTree = "<group>"; };
+		D6FACFF22771D32000136786 /* Subject26.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject26.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +147,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D627C89E274C95D100ED8429 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D627C89F274C969300ED8429 /* NSString+Utility.h */,
+				D627C8A0274C969300ED8429 /* NSString+Utility.m */,
+				D627C8AB274E190D00ED8429 /* NSMutableArray+Stack.h */,
+				D627C8AC274E190D00ED8429 /* NSMutableArray+Stack.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D6AE8F0D2733809F00E3F022 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +181,7 @@
 		D6AE8F182733809F00E3F022 /* LeedCodeWork */ = {
 			isa = PBXGroup;
 			children = (
+				D627C89E274C95D100ED8429 /* Category */,
 				D6AE8F4E2733810D00E3F022 /* Subject */,
 				D6AE8F192733809F00E3F022 /* AppDelegate.h */,
 				D6AE8F1A2733809F00E3F022 /* AppDelegate.m */,
@@ -201,6 +243,22 @@
 				D627C896274775C000ED8429 /* Subject15.m */,
 				D627C89827479EA500ED8429 /* Subject16.h */,
 				D627C89927479EA500ED8429 /* Subject16.m */,
+				D627C89B274BC24F00ED8429 /* Subject17.h */,
+				D627C89C274BC24F00ED8429 /* Subject17.m */,
+				D627C8A2274CDD1800ED8429 /* Subject18.h */,
+				D627C8A3274CDD1800ED8429 /* Subject18.m */,
+				D627C8A5274D11B200ED8429 /* Subject19.h */,
+				D627C8A6274D11B200ED8429 /* Subject19.m */,
+				D627C8A8274E0E7100ED8429 /* Subject20.h */,
+				D627C8A9274E0E7100ED8429 /* Subject20.m */,
+				D627C8AE274E254D00ED8429 /* Subject21.h */,
+				D627C8AF274E254D00ED8429 /* Subject21.m */,
+				D627C8B1274E530600ED8429 /* Subject22.h */,
+				D627C8B2274E530600ED8429 /* Subject22.m */,
+				D6773B0F2768969F00B4970A /* Subject24.h */,
+				D6773B102768969F00B4970A /* Subject24.m */,
+				D6FACFF12771D32000136786 /* Subject26.h */,
+				D6FACFF22771D32000136786 /* Subject26.m */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
@@ -338,19 +396,29 @@
 				D627C897274775C000ED8429 /* Subject15.m in Sources */,
 				D6AE8F21273380A000E3F022 /* ViewController.m in Sources */,
 				D627C891274643A800ED8429 /* Subject13.m in Sources */,
+				D627C8B0274E254D00ED8429 /* Subject21.m in Sources */,
 				D627C8212739467D00ED8429 /* Subject2.m in Sources */,
 				D6AE8F1B2733809F00E3F022 /* AppDelegate.m in Sources */,
+				D627C89D274BC24F00ED8429 /* Subject17.m in Sources */,
 				D6AE8F51273381B400E3F022 /* SubjectObject.m in Sources */,
 				D627C8642743DA3700ED8429 /* Subject11.m in Sources */,
 				D627C834273E48A100ED8429 /* Subject4.m in Sources */,
 				D627C89427465B3B00ED8429 /* Subject14.m in Sources */,
+				D627C8A4274CDD1800ED8429 /* Subject18.m in Sources */,
+				D627C8A1274C969300ED8429 /* NSString+Utility.m in Sources */,
 				D627C824273A2E4000ED8429 /* Subject3.swift in Sources */,
+				D6FACFF32771D32000136786 /* Subject26.m in Sources */,
 				D627C837273E653E00ED8429 /* Subject5.m in Sources */,
 				D6AE8F2C273380A300E3F022 /* main.m in Sources */,
+				D6773B112768969F00B4970A /* Subject24.m in Sources */,
+				D627C8A7274D11B200ED8429 /* Subject19.m in Sources */,
 				D627C8672744EF2500ED8429 /* Subject12.m in Sources */,
+				D627C8B3274E530700ED8429 /* Subject22.m in Sources */,
 				D627C89A27479EA500ED8429 /* Subject16.m in Sources */,
+				D627C8AD274E190D00ED8429 /* NSMutableArray+Stack.m in Sources */,
 				D6AE8F54273381E100E3F022 /* Subject1.m in Sources */,
 				D6AE8F1E273380A000E3F022 /* SceneDelegate.m in Sources */,
+				D627C8AA274E0E7100ED8429 /* Subject20.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
